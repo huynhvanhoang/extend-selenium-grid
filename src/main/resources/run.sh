@@ -1,0 +1,1 @@
+java -cp selenium-grid-extend-1.0.0.jar:selenium-server-standalone-3.141.59.jar:gson-2.8.6.jar org.openqa.grid.selenium.GridLauncherV3 -role hub -servlets "selenium.extend.hub.servlet.NodeInfo,selenium.extend.hub.servlet.AllNodesState"
